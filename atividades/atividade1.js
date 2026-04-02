@@ -2,10 +2,12 @@
 // o preço unitário (Number) e se ele está em estoque (boolean)
 
 let produto = "Teclado";
-let preco = 500;
-let estoque = true;
 
-console.log(O item é  + produto +  custa R$${preco});
-console.log()
+let preco = 3000;
+
+let estaEmEstoque = true;
+
+console.log(`O item é ${produto} custa R$${preco}`);
+
 
 
